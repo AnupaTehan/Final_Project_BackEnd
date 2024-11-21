@@ -25,6 +25,7 @@ public class RoomServiceImpl implements RoomService {
 
     @Override
     public void addNewRoom(Room room) {
+        room.setAvailability("available");
         RoomEntity rooms = roomRepository.save(modelMapper.map(room, RoomEntity.class));
     }
 
