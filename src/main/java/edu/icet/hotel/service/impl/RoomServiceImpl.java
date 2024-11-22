@@ -46,7 +46,6 @@ public class RoomServiceImpl implements RoomService {
             RoomEntity roomentity = roomEntity.get();
             roomentity.setAvailability("occupied");
             roomRepository.save(roomentity);
-        } else {
         }
     }
 

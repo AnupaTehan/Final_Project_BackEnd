@@ -30,15 +30,12 @@ public class BookingController {
         roomController.changeRoomAvailability(booking.getRoomId());
 
         return  true;
-
-
-
-
     }
 
 
     @GetMapping("/getAll-room")
     public List<Booking> getAllBooking(){
+
         return bookingService.getAllBooking();
     }
 
