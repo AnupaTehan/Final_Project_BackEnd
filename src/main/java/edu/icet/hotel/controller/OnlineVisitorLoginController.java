@@ -22,9 +22,4 @@ public class OnlineVisitorLoginController {
         return isValid;
     }
 
-
-
-
-
-
 }

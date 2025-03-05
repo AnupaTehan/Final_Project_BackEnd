@@ -4,12 +4,11 @@ package edu.icet.hotel.controller;
 import edu.icet.hotel.dto.Room;
 import edu.icet.hotel.service.RoomService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Map;
+
 
 @RestController
 @CrossOrigin
